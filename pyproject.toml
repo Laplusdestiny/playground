@@ -12,6 +12,9 @@ tqdm = "*"
 plotly = "*"
 
 
+[tool.poetry.group.dev.dependencies]
+flake8 = "*"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
